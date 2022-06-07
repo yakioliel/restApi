@@ -1,2 +1,5 @@
 # restApi
-mode js project in the college
+
+node js project in the college
+
+git ignore:
