@@ -1,29 +1,16 @@
 {
-  "dependencies": {
-    "bcrypt": "^5.0.1",
-    "express": "^4.18.1",
-    "joi": "^17.6.0",
-    "jsonwebtoken": "^8.5.1",
-    "mysql2": "^2.3.3",
-    "node.js": "^0.0.1-security",
-    "socket.io": "^4.5.1"
-  },
-  "name": "restapi",
-  "description": "node js project in the college",
-  "version": "1.0.0",
-  "main": "app.js",
+  "name": "rest_api",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yakioliel/restApi.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/yakioliel/restApi/issues"
-  },
-  "homepage": "https://github.com/yakioliel/restApi#readme",
-  "keywords": []
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1"
+  }
 }
