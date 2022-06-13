@@ -3,7 +3,7 @@
 .vscode
 .idea
 
-# project
+# walla project
 
 /node_modules/
 /config/
